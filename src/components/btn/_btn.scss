@@ -1,0 +1,50 @@
+.btn {
+    border-radius: 2px;
+
+    &_dark {
+        background: rgb(6, 30, 55);
+        color: white;
+        border: 0;
+    }
+
+    &_dark-outlined {
+        border: 1px solid #061e37;
+        background: transparent;
+        color: #061e37;
+    }
+
+    &_light {
+        background: white;
+        color: #061e37;
+        border: 0;
+    }
+
+    &_light-outlined {
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+    }
+
+    &_sz-small {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+        font-family: 'RalewayRegular';
+    }
+
+    &_sz-default {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        font-family: 'RalewayBold';
+        border-radius: 6px;
+    }
+
+    &_sz-rectanle-default{
+        width: 60px;
+        height: 60px;
+        font-size: 15px;
+        font-family: 'Material Symbols Outlined';
+        border-radius: 6px;
+    }
+}

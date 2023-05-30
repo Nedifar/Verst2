@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        flex-basis: 10%;
+        font-family: 'RalewayRegular';
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    &_selected {
+        font-family: 'RalewaySemiBold';
+        color: rgb(6, 30, 55);
+    }
+}

@@ -1,0 +1,23 @@
+.logo {
+    display: flex;
+
+    &__title-wrapper{
+        padding-left: 10px;
+    }
+    
+    & span{
+        line-height: 0.8;
+        color: white;
+        font-size: 15px;
+    }
+
+    &__title-span-fisrt{
+        font-family: 'RalewayRegular';
+    }
+
+    &__title-span-second{
+        display: block;
+        font-family: 'RalewayExtraBold';
+    }
+
+}

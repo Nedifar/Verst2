@@ -1,0 +1,59 @@
+.header {
+    position: relative;
+    background-image: url('./components/header/img/headerBackground.png');
+    background-size: 100%;
+    z-index: 2;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 32px;
+
+    &__upper {
+        display: flex;
+        align-items: center;
+
+        &__nav {
+            flex-grow: 3;
+            margin-right: 100px;
+        }
+    }
+
+    &__down {
+        display: flex;
+        align-items: center;
+        height: 638px;
+    }
+
+    &__empty{
+        flex-grow: 2;
+    }
+
+    &__information {
+        color: white;
+        width: 580px;
+    }
+
+    &__h1 {
+        font-size: 55px;
+        font-family: 'RalewayExtraBold';
+    }
+
+    &__p {
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 1.944;
+        font-family: 'RalewayRegular';
+    }
+
+
+    &__button-group {
+        padding-top: 30px;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__video-wrapper {
+        width: 600px;
+        height: 320px;
+    }
+}
