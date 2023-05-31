@@ -1,0 +1,57 @@
+.finder {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 17px 0;
+    padding-left: 25px;
+
+    &__content {
+        display: flex;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        position: relative;
+        list-style-type: none;
+    }
+
+    &__header::after{
+        content: '◀';
+        margin-right: 3px;
+        position: absolute;
+        right: 25px;
+    }
+
+    &__header::-webkit-details-marker {
+        display: none;
+    }
+
+    &[open] &__header::after{
+        transform: rotate(-90deg);
+    }
+
+    &__icon {
+        font-family: 'Material Symbols Outlined';
+        font-size: 20px;
+        margin-right: 22px;
+    }
+
+    &__img {
+        width: 250px;
+        border-radius: 5px;
+        padding-bottom: 2px;
+        padding-top: 25px;
+    }
+
+    &__text-content {
+        padding:0px 25px;
+        text-align: start;
+        flex-grow: 2;
+        font-size: 15px;
+        font-family: 'RalewayRegular';
+        line-height: 1.667;
+
+    }
+}

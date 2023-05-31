@@ -1,0 +1,29 @@
+.band-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__title {
+        font-size: 20px;
+        padding-left: 30px;
+        font-family: 'RalewayExtraBold';
+        color: white;
+    }
+
+    &_light-blue {
+        background: #80d8ff;
+    }
+
+    &_sky {
+        background: #82b1ff;
+    }
+
+    &_purple {
+        background: #b388ff;
+    }
+
+    &_pink {
+        background: #ea80fc;
+    }
+}
