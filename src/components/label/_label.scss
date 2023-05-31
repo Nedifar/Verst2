@@ -1,0 +1,16 @@
+.label {
+    font-family: 'RalewayRegular';
+    line-height: 1.667;
+
+    &_sz-default {
+        font-size: 15px;
+    }
+
+    &_gray {
+        color: #b0bec5;
+    }
+
+    &_white {
+        color: white;
+    }
+}

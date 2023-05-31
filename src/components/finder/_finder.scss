@@ -5,6 +5,15 @@
     align-items: center;
     padding: 17px 0;
     padding-left: 25px;
+    height: 240px;
+    max-height: 50px;
+    background: white;
+    overflow: hidden;
+    transition:max-height .3s;
+
+    &[open]{
+        max-height: 500px;
+    }
 
     &__content {
         display: flex;
@@ -19,9 +28,11 @@
 
     &__header::after{
         content: '◀';
+        transform: rotate(-90deg);
         margin-right: 3px;
         position: absolute;
         right: 25px;
+        transition:all .3s ease-in;
     }
 
     &__header::-webkit-details-marker {
@@ -29,7 +40,7 @@
     }
 
     &[open] &__header::after{
-        transform: rotate(-90deg);
+        transform: rotate(90deg);
     }
 
     &__icon {
@@ -46,12 +57,12 @@
     }
 
     &__text-content {
-        padding:0px 25px;
+        padding:10px 20px 0px;
         text-align: start;
         flex-grow: 2;
         font-size: 15px;
         font-family: 'RalewayRegular';
         line-height: 1.667;
-
+        align-self: center;
     }
 }

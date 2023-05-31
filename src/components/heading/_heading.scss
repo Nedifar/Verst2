@@ -1,12 +1,21 @@
 .heading {
 
-    &_sz-default{
+    &_sz-large {
+        font-family: 'RalewayExtraBold';
+        font-size: 55px;
+    }
+
+    &_sz-default {
         font-family: 'RalewaySemiBold';
         font-size: 45px;
     }
 
-    &_sz-small{
+    &_sz-small {
         font-family: 'RalewayBold';
         font-size: 15px;
+    }
+
+    &_white {
+        color: white;
     }
 }

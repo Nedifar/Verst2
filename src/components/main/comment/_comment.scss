@@ -1,0 +1,10 @@
+.comment{
+    display: flex;
+    flex-grow: 2;
+    align-self: center;
+    align-items: center;
+
+    &__person-logo{
+        margin-right: 43px;
+    }
+}

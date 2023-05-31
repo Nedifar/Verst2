@@ -1,0 +1,17 @@
+.rectangle{
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 28px 28px 26px;
+
+    &__person-name{
+        font-size: 18px;
+        font-family: 'RalewayBold';
+        padding-bottom: 10px;
+        display: block;
+    }
+
+    &_white{
+        background: white;
+    }
+}
+  
