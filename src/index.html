@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <img src="/src/5941-dart-landing.png">
     <header class="header">
         <div class="header__upper">
             <div class="logo">
@@ -40,10 +39,10 @@
                     ullamc.
                 </p>
                 <div class="header__button-group">
-                    <button class="header__btn btn_dark btn_sz-default">
+                    <button class="btn header__btn btn_dark btn_sz-default">
                         BUY NOW
                     </button>
-                    <button class="header__btn btn_light btn_sz-default">
+                    <button class="btn header__btn btn_light btn_sz-default">
                         TRY FOR FREE
                     </button>
                 </div>
@@ -53,7 +52,7 @@
                 <video autoplay src="https://infotab.oksei.ru/infotabloserver/main.mp4"
                     poster="./components/video-wrapper/img/BG.png" class="video-wrapper__video">
                 </video>
-                <button class="video-wrapper__btn btn_sz-rectanle-default btn_dark">
+                <button class="btn video-wrapper__btn btn_sz-rectanle-default btn_dark">
                     play_arrow
                 </button>
             </div>
@@ -110,7 +109,7 @@
                 </p>
             </div>
         </div>
-        <button class="btn_light-green btn_sz-default">
+        <button class="btn btn_light-green btn_sz-default">
             GET STARTED
         </button>
         <div class="main__band">
@@ -158,7 +157,7 @@
                 sed do eiusmod tempor<br> incididunt ut labore et dolore magna
             </span>
             <div class="main__details-group">
-                <details class="finder main__finder" open>
+                <details class="btn finder main__finder" open>
                     <summary class="finder__header">
                         <span class="finder__icon">
                             trending_up
@@ -178,7 +177,7 @@
                         </p>
                     </div>
                 </details>
-                <details class="finder main__finder">
+                <details class="btn finder main__finder">
                     <summary class="finder__header">
                         <span class="finder__icon">
                             mail
@@ -198,7 +197,7 @@
                         </p>
                     </div>
                 </details>
-                <details class="finder main__finder">
+                <details class="btn finder main__finder">
                     <summary class="finder__header">
                         <span class="finder__icon">
                             group
@@ -218,7 +217,7 @@
                         </p>
                     </div>
                 </details>
-                <details class="finder main__finder">
+                <details class="btn finder main__finder">
                     <summary class="finder__header">
                         <span class="finder__icon">
                             settings
@@ -238,7 +237,7 @@
                         </p>
                     </div>
                 </details>
-                <details class="finder main__finder">
+                <details class="btn finder main__finder">
                     <summary class="finder__header">
                         <span class="finder__icon">
                             rss_feed
@@ -270,12 +269,12 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod<br> tempor incididunt ut labore et dolore magna
                 </p>
-                <button class="header__btn btn_dark btn_sz-default">
+                <button class="btn header__btn btn_dark btn_sz-default">
                     GET STARTED
                 </button>
             </div>
             <div class="main__comments-group">
-                <div class="main__comments-group__arrow">
+                <div class="btn main__comments-group__arrow">
                     keyboard_arrow_up
                 </div>
                 <div class="comment">
@@ -307,7 +306,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="main__comments-group__arrow">
+                <div class="btn main__comments-group__arrow">
                     keyboard_arrow_down
                 </div>
             </div>
@@ -319,25 +318,82 @@
                 <br>incididunt ut labore et dolore magna
             </p>
             <div class="main__our-team__image-collection">
-                <img class="main__our-team__img-person" src="./components/main/img/team1.png">
-                <img class="main__our-team__img-person_selected" src="./components/main/img/team3.png">
-                <img class="main__our-team__img-person" src="./components/main/img/team2.png">
+                <img class="btn main__our-team__img-person" src="./components/main/img/team1.png">
+                <img class="btn main__our-team__img-person_selected" src="./components/main/img/team3.png">
+                <img class="btn main__our-team__img-person" src="./components/main/img/team2.png">
             </div>
             <span class="rectangle__person-name">Sophie Turner</span>
             <p class="label label_sz-default label_gray main__our-team__label">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                 <br>labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                <br>eiusmod tempor incididunt 
+                <br>eiusmod tempor incididunt
             </p>
             <div class="main__our-team__share-icons">
-                <div class="share-icon share-icon_gray">share</div>
-                <div class="share-icon share-icon_gray">emergency_share</div>
-                <div class="share-icon share-icon_gray">smb_share</div>
-                <div class="share-icon share-icon_gray">share_windows</div>
-                <div class="share-icon share-icon_gray">offline_share</div>
+                <div class="btn share-icon share-icon_gray">share</div>
+                <div class="btn share-icon share-icon_gray">emergency_share</div>
+                <div class="btn share-icon share-icon_gray">smb_share</div>
+                <div class="btn share-icon share-icon_gray">share_windows</div>
+                <div class="btn share-icon share-icon_gray">offline_share</div>
+            </div>
+        </div>
+        <div class="contact-us main__contact-us">
+            <h1 class="heading main__services__heading heading_sz-default">Contact Us</h1>
+            <p class="label label_sz-default contact-us__label">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ul labore et dolore magna
+            </p>
+            <div class="contact-us__text-box-group">
+                <input class="text-input text-input_sz-default" placeholder="Fisrt Name">
+                <input class="text-input text-input_sz-default" placeholder="Last Name">
+                <input class="text-input text-input_sz-default" type="email" placeholder="Email">
+                <input class="text-input text-input_sz-default" type="tel" placeholder="Phone">
+            </div>
+            <textarea placeholder="Message" class="text-input contact-us__text-area"></textarea>
+            <div class="contact-us__sending-group">
+                <label class="btn contact-us__check-box label label_sz-default label_black-blue label_font-medium">
+                    <input class="btn check-box check-box_sz-default" type="checkbox" title="sdfsd">
+                    subscribe to the newsletter
+                </label>
+                <button class="btn btn_light-green btn_sz-default">
+                    SEND
+                </button>
             </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="logo">
+            <img class="logo__image" src="/src/res/logo.png" />
+            <div class="logo__title-wrapper">
+                <span class="logo__span logo__title-span-fisrt">DART</span>
+                <span class="logo__span logo__title-span-second">SERVICE MANAGER</span>
+            </div>
+        </div>
+        <nav class="footer__nav nav">
+            <a href="/" class="nav__item footer__nav-item">Home</a>
+            <a href="/" class="nav__item footer__nav-item">Service</a>
+            <a href="/" class="nav__item footer__nav-item">Extension</a>
+            <a href="/" class="nav__item footer__nav-item">Pricing</a>
+            <a href="/" class="nav__item footer__nav-item">Help</a>
+        </nav>
+        <ul class="footer__callback">
+            <li class="footer__callback__li footer__callback__li_first">
+                <a class="label label_sz-default label_white footer__callback__a" href="/">Privacy Policy</a>
+            </li>
+            <li class="footer__callback__li">
+                <a class="label label_sz-default label_white footer__callback__a" href="/">About Us</a>
+            </li>
+            <li class="footer__callback__li">
+                <a class="label label_sz-default label_white footer__callback__a" href="/">About Us</a>
+            </li>
+        </ul>
+        <div class="main__our-team__share-icons footer__share-icons">
+            <div class="btn share-icon share-icon_gray">share</div>
+            <div class="btn share-icon share-icon_gray">emergency_share</div>
+            <div class="btn share-icon share-icon_gray">smb_share</div>
+            <div class="btn share-icon share-icon_gray">share_windows</div>
+            <div class="btn share-icon share-icon_gray">offline_share</div>
+        </div>
+    </footer>
 </body>
 
 </html>

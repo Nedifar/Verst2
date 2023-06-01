@@ -16,7 +16,7 @@ module.exports = {
         open: true,
         hot: true
     },
-    entry: path.resolve(__dirname, 'src', 'index.js'),
+    entry: path.resolve(__dirname, 'src', 'index.ts'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
@@ -42,6 +42,11 @@ module.exports = {
                 use: [devMode ? "style-loader" : MiniCssExtractPlugin.loader,
                     "css-loader",
                     "sass-loader"]
+            },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
             },
             {
                 test: /\.(jpe?g|png|webp|gif|svg)$/i,
@@ -79,5 +84,8 @@ module.exports = {
                 }
             }
         ]
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
     }
 }

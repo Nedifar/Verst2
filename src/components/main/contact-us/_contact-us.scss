@@ -1,0 +1,37 @@
+.contact-us {
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__label {
+        padding-bottom: 45px;
+        width: 555px;
+        text-align: center;
+    }
+
+    &__text-box-group {
+        display: grid;
+        column-gap: 40px;
+        row-gap: 20px;
+        padding-bottom: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__text-area{
+        resize: none;
+        width: 600px;
+        height: 150px;
+    }
+
+    &__sending-group{
+        padding-top: 18px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__check-box{
+        flex-grow: 3;
+    }
+}

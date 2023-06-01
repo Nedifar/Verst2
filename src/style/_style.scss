@@ -9,12 +9,7 @@ html {
 }
 
 body {
-    min-width: 1600px;
+    min-width: 1000px;
     position: relative;
 
-    &>img {
-        position: absolute;
-        width: 100%;
-        height: 4855px;
-    }
 }

@@ -1,0 +1,42 @@
+.footer {
+    background: #061e37;
+    z-index: 2;
+    position: relative;
+    padding: 60px 5%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    align-items: center;
+
+    &__nav {
+        justify-content: end !important;
+        gap: 4%;
+    }
+
+    &__nav-item {
+        text-align: end !important;
+    }
+
+    &__share-icons{
+        justify-self: end;
+        padding-top: 0px !important;
+    }
+
+    &__callback {
+        margin-left: -5px;
+
+        &__a {
+            text-decoration: none;
+        }
+
+        &__li {
+            margin: 0px 5px;
+            display: inline-flex;
+
+            &_first {
+                list-style-type: none;
+            }
+        }
+    }
+}
